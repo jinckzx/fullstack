@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Update Employee</title>
+  <link rel="stylesheet" href="theme.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/flatpickr/4.6.13/flatpickr.min.css">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/flatpickr/4.6.13/flatpickr.min.js"></script>
+  <script src="update.js" defer></script>
+</head>
+<body>
+  <h1>Update Employee</h1>
+  <form id="update-form">
+    <label for="employee_id">Employee ID:</label>
+    <input type="text" id="employee_id" name="employee_id" required>
+
+    <label for="first_name">First Name:</label>
+    <input type="text" id="first_name" name="first_name" required>
+
+    <label for="age">Age:</label>
+    <input type="number" id="age" name="age" required>
+
+    <label for="hire_date">Hire Date:</label>
+    <input type="date" id="hire_date" name="hire_date" required>
+
+    <label for="positions">Positions:</label>
+    <input type="text" id="positions" name="positions" required>
+
+    <label for="password">Password:</label>
+    <input type="password" id="password" name="password" required>
+
+    <button type="submit">Update Employee</button>
+  </form>
+</body>
+</html>
